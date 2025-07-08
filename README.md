@@ -1,3 +1,4 @@
+![Banner](banner.png)
 # 📒 Contact Book (Python CLI)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Rumaisas_islam/contact-book?style=flat-square)
