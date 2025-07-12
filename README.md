@@ -1,95 +1,148 @@
-![Banner](banner.png)
-# 📒 Contact Book (Python CLI)
+# Contact Book CLI App - A Python Project for Beginners 📚
 
-![GitHub Repo stars](https://img.shields.io/github/stars/Rumaisas_islam/contact-book?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/Rumaisas_islam/contact-book?style=flat-square)
-![GitHub license](https://img.shields.io/github/license/Rumaisas_islam/contact-book?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/Rumaisas_islam/contact-book?style=flat-square)
-![Python](https://img.shields.io/badge/Made%20with-Python-blue?style=flat-square)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/Stagnantw/contact-book-cli-python)
+![GitHub Issues](https://img.shields.io/github/issues/Stagnantw/contact-book-cli-python)
+![GitHub Stars](https://img.shields.io/github/stars/Stagnantw/contact-book-cli-python)
+![GitHub License](https://img.shields.io/github/license/Stagnantw/contact-book-cli-python)
 
-> A beginner-friendly **Contact Book CLI project** built using Python, File Handling, Regex, and OOP — perfect for learning CRUD operations and terminal-based UI.
+## Overview
 
----
+Welcome to the **Contact Book CLI** application! This beginner-friendly project is designed to help you practice Python programming while learning about object-oriented programming (OOP) and file handling. With this application, you can manage your contacts through a command-line interface (CLI) by performing Create, Read, Update, and Delete (CRUD) operations. The app also includes full input validation and regex-based search functionality.
 
-## 📌 Features
+You can download the latest version of the app from the [Releases](https://github.com/Stagnantw/contact-book-cli-python/releases) section.
 
-- ✅ Add new contacts with validation
-- 🔍 Search contact by Name / Phone / Email
-- 🗑️ Delete contact safely
-- ✏️ Edit existing contact info
-- 📃 List all saved names
-- 📦 Print all contact data
-- 📁 Data saved in a human-readable `.txt` file
-- 🧪 Easy to expand with test folder or GUI
+## Features
 
----
+- **CRUD Operations**: Easily create, read, update, and delete contacts.
+- **Input Validation**: Ensure that all inputs are validated to avoid errors.
+- **Regex Search**: Search for contacts using regular expressions for flexible querying.
+- **File Handling**: Store contacts in a file for persistent data management.
+- **OOP Design**: Utilize object-oriented programming principles for clean code structure.
+- **Command-Line Interface**: Interact with the app directly from your terminal.
 
-## 🚀 How to Run
+## Table of Contents
 
-1. Clone the repo:
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Features](#features)
+4. [Technologies Used](#technologies-used)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+
+## Installation
+
+To get started with the Contact Book CLI app, follow these steps:
+
+1. **Clone the Repository**:
+   Open your terminal and run the following command:
    ```bash
-   git clone https://github.com/Rumaisas_islam/contact-book.git
-   cd contact-book
-```
+   git clone https://github.com/Stagnantw/contact-book-cli-python.git
+   ```
 
-2. Run the project:
+2. **Navigate to the Directory**:
+   Change to the project directory:
+   ```bash
+   cd contact-book-cli-python
+   ```
 
+3. **Install Dependencies**:
+   If there are any dependencies listed, install them using:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Download the Latest Release**:
+   You can download the latest version of the app from the [Releases](https://github.com/Stagnantw/contact-book-cli-python/releases) section. Follow the instructions there to execute the app.
+
+## Usage
+
+Once you have installed the app, you can start using it directly from your terminal.
+
+1. **Run the Application**:
+   Execute the following command to start the app:
    ```bash
    python contact_book.py
    ```
 
----
+2. **Main Menu**:
+   The application will display a menu with options to manage your contacts. You can choose from the following options:
+   - Add a new contact
+   - View existing contacts
+   - Update a contact
+   - Delete a contact
+   - Search for a contact
+   - Exit the application
 
-## 🧠 Technologies Used
+3. **Adding a Contact**:
+   When you select the option to add a contact, the app will prompt you for the necessary information, such as name, phone number, and email address. The input will be validated to ensure correctness.
 
-* Python 3.x
-* File Handling
-* Regular Expressions (`re`)
-* Object-Oriented Programming (OOP)
-* Terminal / CLI based UI
+4. **Searching for a Contact**:
+   You can search for contacts using regex patterns. This allows for flexible and powerful search capabilities.
 
----
+5. **Updating and Deleting Contacts**:
+   The app allows you to update existing contacts or delete them entirely. You will need to provide the contact's identifier (like name or phone number) for these operations.
 
-## 📂 Project Structure
+## Technologies Used
 
-```
-contact-book/
-├── contact_book.py
-├── contact_sample.txt     # Sample format only (not used by code)
-├── README.md
-├── .gitignore
-├── LICENSE
-└── test/
-    └── test_sample.py
-```
+This project utilizes the following technologies:
 
-> ⚠️ `contact.txt` is created automatically at runtime when you add a new contact.
-> For structure reference, see `contact_sample.txt`.
-> It's recommended to ignore `contact.txt` in version control via `.gitignore`.
+- **Python**: The primary programming language used for the app.
+- **OOP Principles**: Classes and objects are used to structure the code.
+- **File Handling**: Contacts are stored in a text file for persistence.
+- **Regular Expressions**: Used for input validation and searching.
 
----
+## Contributing
 
-## 🎯 Future Improvements
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
-* Add GUI using Tkinter or PyQt
-* Export to CSV / JSON
-* Add search filters or pagination
-* Integrate with SQLite or MongoDB
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. Create a pull request.
 
----
+## License
 
-## 🧾 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+## Contact
 
----
+For any questions or suggestions, feel free to reach out to the project maintainer:
 
-## 🙌 Support
+- **GitHub**: [Stagnantw](https://github.com/Stagnantw)
 
-If you like this project, don’t forget to ⭐ the repo and share it!
+You can also check the [Releases](https://github.com/Stagnantw/contact-book-cli-python/releases) section for updates and downloads.
 
----
+## Screenshots
 
-## 🏷️ Tags
+![Contact Book CLI](https://via.placeholder.com/800x400?text=Contact+Book+CLI+Screenshot)
 
-`#python` `#cli-project` `#file-handling` `#oop` `#beginner-friendly` `#contact-manager`
+## Acknowledgments
+
+- Thanks to the open-source community for providing resources and inspiration.
+- Special thanks to all contributors who help improve this project.
+
+## Topics Covered
+
+- Beginner-friendly
+- CLI
+- Contact Book
+- CRUD
+- File Handling
+- Mini Project
+- OOP
+- Python
+- Regex
+- Terminal App
+
+Feel free to explore, modify, and enhance this project as you learn Python and develop your programming skills. Happy coding!
